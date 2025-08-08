@@ -1,0 +1,22 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="16" cy="16" r="16" fill="url(#logoGradient)"/>
+  
+  <!-- Chat bubble 1 -->
+  <path d="M8 10a2 2 0 012-2h7a2 2 0 012 2v4a2 2 0 01-2 2h-3l-3 3v-3h-1a2 2 0 01-2-2v-4z" fill="white" opacity="0.9"/>
+  
+  <!-- Chat bubble 2 -->
+  <path d="M14 16a2 2 0 012-2h6a2 2 0 012 2v3a2 2 0 01-2 2h-2l-2 2v-2h-2a2 2 0 01-2-2v-3z" fill="white" opacity="0.7"/>
+  
+  <!-- Dots in first bubble -->
+  <circle cx="11" cy="12" r="0.8" fill="url(#logoGradient)"/>
+  <circle cx="13.5" cy="12" r="0.8" fill="url(#logoGradient)"/>
+  <circle cx="16" cy="12" r="0.8" fill="url(#logoGradient)"/>
+</svg>
